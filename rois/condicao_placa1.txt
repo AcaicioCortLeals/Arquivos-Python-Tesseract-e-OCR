@@ -1,0 +1,18 @@
+Para a imagem "placa1." 
+
+-> REDUÇÃO NA IMAGEM
+
+Na função "preProcessamentoRoiPlaca()" [linha 41]deve ser alterado o valor 
+na função "cv2.resize(img_roi, None, fx=4, fy=4, interpolation= cv2.INTER_CUBIC)"
+o valor "fx=4" e "fy=4" para "fx=1" e "fy=1" ficando com:
+cv2.resize(img_roi, None, fx=1, fy=4, interpolation= cv2.INTER_CUBIC)
+
+->ALMENTANDO O VALOR MÍNIMO DE BINARIZAÇÃO DA IMAGEM.
+
+Na função PreProcessamentoRoiPlca() [linha 47] deve ser alterdo o valor
+na Função "cv2.threshold(img_cinza, 70, 5, cv2.THRESH_BONARU)" 
+o valor 70 deve ser trocado por:
+cv2.threshold(img_cinza, 100, 5, cv2.THRESH_BONARU)
+
+
+

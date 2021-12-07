@@ -1,0 +1,7 @@
+Para o carro de número 3, para que
+a placa seja identificada o valor
+do thrasehold deve ser 90.
+
+Já para o OCR conseguir ler
+os carcteres da placa do carro
+deve ser 88. 

@@ -1,0 +1,8 @@
+Para qua a placa do carro1 seja encontrada
+é preciso que em (linha:11) o segundo parametro
+seja: 150.
+
+Para que o OCR faça o reconhecimento correto dos
+caracteres é preciso que na (linha:45) o segundo
+parâmetro seja 110. para escurecer um pouco mais 
+a imagem.

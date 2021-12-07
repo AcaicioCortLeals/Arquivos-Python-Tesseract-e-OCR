@@ -1,0 +1,15 @@
+Instalação de Pacotes
+
+1º openCV (cv2) e Numpy (ny)
+
+No terminal digite o comando: pip install opencv-python
+
+obs:Não é preciso fazer nenhuma configuração adicional.
+
+-PARA IMPORTAR, DIGITE: "importe cv2" e "import numpy"
+
+_______________________________________________________
+2º Bibliotecas pytesseract
+
+Primeiro digite no terminal do vscode ou no cmd o 
+comando " pip install pytesseract"
